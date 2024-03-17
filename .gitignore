@@ -1,3 +1,11 @@
+#
+*.log
+180.zip
+meta.json
+model.bin
+model.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
