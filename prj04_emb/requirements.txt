@@ -1,0 +1,13 @@
+gensim
+pandas
+razdel
+scikit-learn
+allennlp
+pytorch_lightning
+jupyterlab
+numpy
+matplotlib
+torch==2.2.2
+torchaudio
+torchvision
+
