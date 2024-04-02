@@ -1,8 +1,9 @@
+bokeh
 gensim
 pandas
 razdel
 scikit-learn
-allennlp
+# allennlp
 pytorch_lightning
 jupyterlab
 numpy
