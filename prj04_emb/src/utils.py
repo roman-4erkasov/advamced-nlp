@@ -1,6 +1,22 @@
 import random
+import os
+import datetime
 import numpy as np
 import torch
+import __main__
+
+
+def log(msg:str, headers=None):
+    dttm = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")
+    # if "__file__" not in globals() and "__file__" not in locals():
+    if not hasattr(__main__, "__file__"):
+        script = "jupyter"
+    else:
+        script = os.path.basename(__main__.__file__)
+    if headers is None:
+        headers = []
+    header_line = f"[{dttm}][{script}]" + "".join(f"[{h}]" for h in headers)
+    print(f"{header_line} {msg}")
 
 
 def get_next_batch(

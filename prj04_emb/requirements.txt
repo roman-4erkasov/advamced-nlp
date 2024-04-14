@@ -11,4 +11,5 @@ matplotlib
 torch==2.2.2
 torchaudio
 torchvision
-
+transformers
+lightgbm
